@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * print_times_table - Compute and print
- * the sum of multiples of 3 or 5 below 1024
- *
+ * main - This is the entry point for the program
+ *The program computes and prints the sum of all multiples of 3 or 5 below 1024
  *
  * Return: Always 0.
  */
 
 
-void print_times_table(void)
+int main(void)
 {
 	int sum = 0
 
@@ -22,11 +21,6 @@ void print_times_table(void)
 	}
 
 	printf("%d\n", sum);
-
-}
-
-int main(void)
-{
-	print_times_table();
 	return (0);
+
 }
