@@ -1,8 +1,12 @@
 #include "main.h"
+
 /**
  * prime_a - it calculates the prime
+ *
  * @a: input
+ *
  * @b: divisor
+ *
  * Return: (0)
  */
 
@@ -19,7 +23,7 @@ int prime_a(int a, int b)
 	return (prime_a(a, b + 1));
 }
 /**
- * _prime_number - detect the prime number
+ * is_prime_number - to detect the prime number
  * @n: the input number
  * Return: 0 or 1
  */
