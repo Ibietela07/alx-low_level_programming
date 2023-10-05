@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - main entry
+ * argstostr - a function that concatenates
  * @ac: int input
  * @av: double pointer array
  * Return: the pointer to a new string if successful, otherwise 0
@@ -21,9 +21,10 @@ char *argstostr(int ac, char **av)
 		for (y = 0; av[x][y]; y++)
 			l++;
 	}
+
 	l += ac;
 
-	str = malloc(sizeof(char) * l + 1);
+	str = malloc(sizeof(char) * (l + 1));
 
 	if (str == NULL)
 		return (NULL);
