@@ -25,7 +25,6 @@ int is_digit(char *str)
  *
  * Return: 0 if successful, 98 if there is an error.
  */
-int is_digit(char *str);
 
 int main(int argc, char *argv[])
 {
