@@ -5,7 +5,7 @@
  * is_digit - A program that mutiplies two positive numbers
  * @str: The string to check.
  *
- * Return: 1 if all characters are digits, otherwisw 0.
+ * Return: 1 if all characters are digits, otherwise 0.
  */
 int is_digit(char *str)
 {
