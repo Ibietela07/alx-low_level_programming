@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "dog.h"
+#include <stdio.h>
 
 /**
  * print_dog - a function that prints that struct decleared for dog d
  *
- * @d: the new dog d of the struct type
+ * @d: the new dog d of the type struct
  */
 void print_dog(struct dog *d)
 {
