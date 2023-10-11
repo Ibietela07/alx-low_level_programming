@@ -3,7 +3,7 @@
 /**
  * File: 3-function_like_macro
  *
- * @X: Value to  be inputed (an int)
+ * @x: Value to  be inputed (an int)
  *
  * Desc: An header file that computes an absolute value
  */
