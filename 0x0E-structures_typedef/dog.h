@@ -11,12 +11,8 @@
  * Description: a struct that creats certain elements
  */
 
-/**
- * dog_t - new name for the struct dog
- * 
- */
 
-typedef struct dog dog_t;
+typedef struct dog dog_t
 
 struct dog
 {
