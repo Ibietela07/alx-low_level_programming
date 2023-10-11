@@ -11,16 +11,13 @@
  * Description: a struct that creats certain elements
  */
 
-
-typedef struct dog dog_t
-
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 
-}dot_t;
+} dog_t;
 
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
