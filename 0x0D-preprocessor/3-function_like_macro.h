@@ -1,7 +1,7 @@
 #ifndef MACROLIKE_H
 #define MACROLIKE_H
 /**
- * File: 3-function_like_macro.h
+ * File: 3-function_like_macro
  *
  * @X: Value to  be inputed (an int)
  *
