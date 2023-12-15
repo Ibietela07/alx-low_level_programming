@@ -1,18 +1,15 @@
 #include "main.h"
-#include "stdio.h"
 
-/*
- *_get_endianness - A function that checks the endianness
- *
- *Returns: 0 if big endian, 1 if little endian
+/**
+ * get_endianness - to check the system Byte order
+ * Returns: 0 if big endian, 1 if little endian
  */
 
 int get_endianness(void)
 {
-	int a;
-	char *b;
+	int a = 1;
+	int little_or_big;
 
-	a = 1;
-	b = (char *)&a;
-	return (*b);
+	little_or_big = (int) (((char *)&a)[0]);
+	return (little_or_big);
 }
